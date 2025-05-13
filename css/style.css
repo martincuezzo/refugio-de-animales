@@ -1,0 +1,34 @@
+
+p{
+    font-family: fuente1;
+}
+
+a[style*="color:red"]{
+font-weight: bold;
+}
+
+.informatica{
+    background-color: chartreuse;
+    
+}
+
+
+div p.destacado { 
+    color: red; 
+    } 
+
+.fondorojo{
+    background-color: crimson;
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+    font-family:"fuente1";
+    src: url(../assets/fonts/DMSerifText-Regular.ttf);
+}
+
+@font-face {
+    font-family:"fuente2";
+    src: url(../assets/fonts/DMSerifText-Regular.ttf);
+}
